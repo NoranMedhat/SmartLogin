@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/1439428.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/Login.css">
+    <link rel="stylesheet" href="./assets/css/Media.css">
+</head>
+<body>
+<div class="login vh-100">
+    <div class="container p-5">
+        <h1 class="text-center p-3 fw-bolder ">Smart Login System</h1>
+        <form class=" rounded-4 p-4  bg-transparent shadow-lg" >
+            <i class="icon-envelope"></i><input type="text" id="loginEmail" class="form-control p-2 mt-4 "  placeholder="Enter Your Email"> 
+            <i class="icon-encryption"></i><input type="password" id="loginPass" class="form-control p-2 mt-4" placeholder="Enter Your Password">
+            <p class=" pt-4" id="alert"></p>
+            <button class="btn btn-outline-success my-3 form-control fw-bolder fs-5" type="button">Login </button>
+        </form>
+        <p class=" text-center py-3 fs-5 fw-semibold loginPar">Don’t have an account? <a href="./SignUp.html">Sign Up</a></p> 
+    </div>
+</div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/Login.js"></script>
+</body>
+</html>
